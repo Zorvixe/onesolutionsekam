@@ -1,13 +1,13 @@
-git import React, {useEffect} from 'react'
+import React, {useEffect} from 'react'
 
 const Events = () => {
+
   useEffect(() => {
       document.title = "Events | One Solutions";
     }, []);
+
   return (
     <div>
-      
-
     {/* <!-- Page Title --> */}
     <div className="page-title light-background">
       <div className="container d-lg-flex justify-content-between align-items-center">
