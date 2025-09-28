@@ -6,10 +6,6 @@ const Header = () => {
   const [dropdownOpen, setDropdownOpen] = useState({});
   const location = useLocation();
 
-  useEffect(() => {
-    document.title = "Header | One Solutions";
-  }, []);
-
   // Add/remove mobile-nav-active class to body
   useEffect(() => {
     if (mobileNavOpen) {
