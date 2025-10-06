@@ -15,7 +15,7 @@ import "./DataAnalyst.css";
 
 const DataAnalyst = () => {
   useEffect(() => {
-    document.title = "Data Analyst | OneSolutions"
+    document.title = "Data Analyst | One Solutions"
   }, [])
 
   const [activeFAQ, setActiveFAQ] = useState(null)

@@ -15,7 +15,7 @@ import "./FullStackDevelopment.css";
 
 const FullStackDevelopment = () => {
   useEffect(() => {
-    document.title = "Full Stack Development | OneSolutions"
+    document.title = "Full Stack Development | One Solutions"
   }, [])
 
   const [activeFAQ, setActiveFAQ] = useState(null)

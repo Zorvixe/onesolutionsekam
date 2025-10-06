@@ -15,7 +15,7 @@ import "./DigitalMarketing.css";
 
 const DigitalMarketing = () => {
   useEffect(() => {
-    document.title = "Digital Marketing | OneSolutions"
+    document.title = "Digital Marketing | One Solutions"
   }, [])
 
   const [activeFAQ, setActiveFAQ] = useState(null)
